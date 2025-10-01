@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+body { display: grid; place-items: center; gap: 12px; background: #0e0f13; color: #e5e7eb; padding: 16px; }
+
+#game {
+  background: #111827;
+  border: 2px solid #374151;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+#ui { width: 900px; max-width: 95vw; display: grid; gap: 10px; }
+#ui .row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+#ui .stat { padding: 6px 10px; background: #111827; border: 1px solid #374151; border-radius: 10px; }
+#ui .status { margin-left: auto; background: #1f2937; }
+#ui button { background: #1f2937; color: #e5e7eb; border: 1px solid #374151; padding: 8px 14px; border-radius: 10px; cursor: pointer; }
+#ui button:hover { background: #374151; }
+#ui .hint { opacity: .8; font-size: 0.9rem; }
